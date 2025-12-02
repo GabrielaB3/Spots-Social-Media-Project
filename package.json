@@ -1,0 +1,38 @@
+{
+  "name": "project-sprint-6-",
+  "version": "0.1.0",
+  "description": "This project is my first responsive web application, built with the aim of improving my skills in creating adaptable and user-friendly websites. I used various technologies to make the website responsive, including Media Queries to ensure it works across different screen sizes. To maintain clarity and organization in the code, I implemented the BEM (Block Element Modifier) methodology, which helps in managing naming conventions and creating a scalable structure.",
+  "homepage": "https://github.com/GabrielaB3/Project-sprint-3#readme",
+  "bugs": {
+    "url": "https://github.com/GabrielaB3/Project-sprint-3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielaB3/Project-sprint-3.git"
+  },
+  "license": "ISC",
+  "author": "Gabriela Barwick",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.9",
+    "@babel/preset-env": "7.18.9",
+    "autoprefixer": "10.4.7",
+    "babel-loader": "8.2.5",
+    "clean-webpack-plugin": "4.0.0",
+    "css-loader": "6.7.1",
+    "cssnano": "5.1.12",
+    "html-webpack-plugin": "5.5.0",
+    "mini-css-extract-plugin": "2.6.1",
+    "postcss-loader": "7.0.1",
+    "webpack": "5.76.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.9.3"
+  },
+  "dependencies": {
+    "core-js": "3.23.5"
+  }
+}
