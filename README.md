@@ -8,12 +8,13 @@ One of the key features of the project is the hover functionality integrated int
 
 ## Technologies and techniques used
 
-- Semantic HTML5 and CSS
-- Flexbox
-- Positioning
-- BEM file structure
-- Responsive Design
-- Media Queries
+- HTML5 – Semantic and accessible markup
+- CSS3 – Responsive layout styled using the BEM methodology
+- JavaScript (ES6+) – Modular, modern JavaScript
+- Webpack – Module bundling and asset management
+- NPM – Dependency and script management
+- REST API – Backend communication for user and card data
+- Fetch API – Asynchronous requests with Promises
 
 ## Link to project on GitHub Pages
 
