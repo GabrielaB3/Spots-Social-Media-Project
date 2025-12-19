@@ -85,7 +85,12 @@
         <div class="modal__container">
           <button type="button" class="modal__close-btn"></button>
           <h2 class="modal__title">Edit profile</h2>
-          <form id="profile-form" name="edit-profile" class="modal__form">
+          <form
+            id="profile-form"
+            name="edit-profile"
+            class="modal__form"
+            data-initialized="true"
+          >
             <label for="profile-name-input" class="modal__label">
               Name
               <input
@@ -100,10 +105,10 @@
               <span id="profile-name-input-error" class="modal__error"></span>
             </label>
 
-            <label for="profile-description-inpput" class="modal__label">
+            <label for="profile-description-input" class="modal__label">
               Description
               <input
-                id="profile-description-inpput"
+                id="profile-description-input"
                 type="text"
                 class="modal__input"
                 placeholder="Describe yourself"
@@ -112,7 +117,7 @@
                 required
               />
               <span
-                id="profile-description-inpput-error"
+                id="profile-description-input-error"
                 class="modal__error"
               ></span>
             </label>
@@ -177,7 +182,7 @@
           <button type="button" class="modal__close-btn"></button>
           <h2 class="modal__title">Edit profile avatar</h2>
           <form id="edit-avatar-form" class="modal__form">
-            <label for="profile-avatar-input" class="modal__label">
+            <label for="profile-avatar-input" class="modal__label" type="url">
               Profile Picture
               <input
                 id="profile-avatar-input"
