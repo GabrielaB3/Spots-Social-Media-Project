@@ -26,7 +26,7 @@ One of the key features of the project is the hover functionality integrated int
 
 ## Project Pitch Video
 
-- Check out [this video](https://drive.google.com/file/d/1jy9qZ9Yy-xYBA_HILPeZgqIpPKHbY-cX/view?usp=share_link),
+- Check out [this video](https://drive.google.com/file/d/1jTfayc1ra7fjfTXi1HVmjvij3G17NOSb/view?usp=drive_link),
   where I describe my project and some challenges I faced while building it.
 
 **Figma**
