@@ -1,11 +1,52 @@
 .profile {
   display: flex;
   padding: 34px 0 20px;
-  border-bottom: 1px rgba(33,33,33, 0.4) solid;
+  border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
+}
+
+.profile__avatar-container {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.profile__avatar-btn {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: rgba(33, 33, 33, 0.6);
+  border: none;
+  gap: 8px;
+  border-radius: 6px;
+  visibility: hidden;
+}
+
+.profile__avatar-container:hover .profile__avatar-btn {
+  visibility: visible;
+}
+
+.profile__pencil-icon {
+  margin-bottom: 12px;
+}
+
+.profile__avatar-btn::after {
+  content: "Edit Avatar";
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 12px;
 }
 
 .profile__avatar {
-  margin-right: 20px;
+  /* margin-right: 20px; */
   height: 190px;
   width: 190px;
   border-radius: 8px;
@@ -32,17 +73,17 @@
   color: #212121;
 }
 
-.profile__description{
- margin: 0;
- color:rgba(33, 33, 33, 0.7);
- font-weight: 500;
- text-overflow: ellipsis;
- overflow: hidden;
- line-clamp: 3;
- display: -webkit-box;
- -webkit-line-clamp: 3;
- -webkit-box-orient: vertical;
- max-width: 420px;
+.profile__description {
+  margin: 0;
+  color: rgba(33, 33, 33, 0.7);
+  font-weight: 500;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-clamp: 3;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-width: 420px;
 }
 
 .profile__edit-button {
@@ -52,14 +93,13 @@
   font-size: 16px;
   line-height: 16px;
   color: rgb(33, 33, 33);
-  background-color: #FCF5E5;
+  background-color: #fcf5e5;
   border: none;
   font-weight: 500;
   align-items: center;
   gap: 8px;
   opacity: 0.7;
   cursor: pointer;
-  padding: 0;
 }
 
 .profile__pencile-button {
@@ -70,8 +110,6 @@
   opacity: 1;
 }
 
-
-
 .profile__add-button {
   margin-left: auto;
   margin-top: auto;
@@ -81,7 +119,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
-  color: #FCF5E5;
+  color: #fcf5e5;
   background-color: rgba(33, 33, 33, 1);
   border-radius: 8px;
   cursor: pointer;
@@ -112,6 +150,26 @@
     height: 80px;
   }
 
+  .profile__avatar-btn {
+    position: absolute;
+    visibility: visible;
+    background-color: rgba(33, 33, 33, 0.6);
+    width: 23.34px;
+    height: 23.34px;
+    border-radius: 6px;
+    padding-right: 0px;
+    right: 4.66px;
+    margin-bottom: 15px;
+  }
+
+  .profile__pencil-icon {
+    margin-bottom: 0;
+  }
+
+  .profile__avatar-btn::after {
+    content: "";
+  }
+
   .profile__name {
     font-size: 20px;
     margin: 0 0 6px;
@@ -135,6 +193,5 @@
     margin: 0;
     width: 100%;
     max-width: 288px;
-}
-
+  }
 }
